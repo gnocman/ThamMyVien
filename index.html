@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- thêm bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<!-- header -->
+<div class="container" id="header">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="images/logo.png">
+		</div>
+		<div class="col-sm-6">
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-8">
+					<img src="images/hotline.png">
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<!-- navbar -->
+<div class="container">
+	<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+	        </button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="#"><b>TRANG CHỦ</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>GIỚI THIỆU</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>ĐỘI NGŨ BÁC SĨ</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>DỊCH VỤ</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>GALLERY ẢNH</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>KHUYẾN MÃI</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>BLOG</b></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#"><b>LIÊN HỆ</b></a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<div class="nav-search">
+							<div class="form-inline">
+								<input class="form-control" type="text" id="timkiem" placeholder="">
+								<button class="btn btn-primary" type="submit" id="header-nut">
+									<img src="images/timkiem.png" height="15px" id="bt-timkiem">
+								</button>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+	</nav>
+</div>
+
+<!-- header back ground -->
+<div class="carousel-slide" id="slide" data-ride="carousel">
+	<div class="carousel-inner" id="slide-inner">
+		<div class="carousel-item active" id="slide-item">
+			<div class="thum">
+				<img src="images/headerslide.png">
+			</div>
+			<div class="carousel-caption" id="slide-cap">
+				<div id="chao">
+					CHÀO MỪNG QUÝ VỊ ĐẾN VỚI
+				</div>
+				<div id="suge">
+					SURGERY CLINIC
+				</div>
+				<div id="cachtiepnhan">
+					Cách tiếp cận nhóm duy nhất của chúng tôi cung cấp cho khách hàng những thủ tục mới nhất về phẫu thuật và không phẫu thuật trong tái tạo trong một môi trường thân thiện và an toàn.
+				</div>
+				<button class="btn" type="button">Xem tiếp >>></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- các dịch vụ -->
+<div class="container">
+	<div class="dichvu"><b>DỊCH VỤ</b></div>
+	<div class="kechan"></div>
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="images/1.png">
+			<div class="noidung">
+				<b>NHẤN MÍ MẮT</b>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/2.png">
+			<div class="noidung">
+				<b>NHẤN MÍ MẮT</b>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/3.png">
+			<div class="noidung">
+				<b>NHẤN MÍ MẮT</b>
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/4.png">
+			<div class="noidung">
+				<b>NHẤN MÍ MẮT</b>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- điều gì làm khác biệt -->
+<div class="container">
+	<div class="dichvu"><b>ĐIỀU GÌ LÀM CHO CHÚNG TÔI KHÁC BIỆT</b></div>
+	<div class="kechan"></div>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon1.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>THIẾT BỊ HIỆN ĐẠI</b>
+					</div>
+					<div class="motadv">
+						Chúng tôi sử dụng thiết bị y tế mới nhất để cung cấp các dịch vụ phẫu thuật thẩm mỹ hàng đầu.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon2.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>TRÌNH ĐỘ CHUYÊN MÔN CAO</b>
+					</div>
+					<div class="motadv">
+						Nhóm của chúng tôi bao gồm hơn 20 chuyên gia được đào tạo chuyên sâu để phục vụ nhu cầu của bệnh nhân.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon3.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>HIỆU QUẢ</b>
+					</div>
+					<div class="motadv">
+						Các kỹ năng của bác sĩ phẫu thuật của chúng tôi và điều trị hiệu quả mang lại kết quả mong muốn mà khách hàng mong đợi.s
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- slide sau -->
+<div class="carousel-slide" id="slide2" data-ride="carousel">
+	<div class="carousel-inner" id="slide2-inner">
+		<div class="carousel-item active" id="slide2-item">
+			<div class="thum2">
+				<img src="images/back2.png">
+			</div>
+			<div class="container">
+				<div class="carousel-caption" id="slide2-cap">
+					<div class="row">
+						<div class="col-sm-6"></div>
+						<div class="col-sm-6">
+							<div id="chao2">
+								<b>TẤT CẢ CÁC LOẠI</b>
+							</div>
+							<div id="suge2">
+								<b>DỊCH VỤ</b>
+							</div>
+							<div id="cachtiepnhan2">
+								Tất cả các dịch vụ bạn cần. Một vị trí thuận tiện. VISAGE Phòng khám phẫu thuật thẩm mỹ có các dịch vụ phẫu thuật thẩm mỹ toàn diện nhất trong khu vực.
+							</div>
+							<button class="btn" type="button">Xem tiếp >>></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- đội ngũ bác sĩ -->
+<div class="container">
+	<div class="dichvu"><b>ĐỘI NGŨ BÁC SĨ</b></div>
+	<div class="kechan"></div>
+	<div class="row">
+		<div class="col-sm-3">
+			<img src="images/bs1.png" width="242px">
+			<div class="bs">
+					<b>KATHERINE WONG</b><br>
+					Facial & breast surgery
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/bs2.png" width="242px">
+			<div class="bs">
+					<b>KATHERINE WONG</b><br>
+					Facial & breast surgery
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/bs3.png" width="242px">
+			<div class="bs">
+					<b>KATHERINE WONG</b><br>
+					Facial & breast surgery
+			</div>
+		</div>
+		<div class="col-sm-3">
+			<img src="images/bs4.png" width="242px">
+			<div class="bs">
+					<b>KATHERINE WONG</b><br>
+					Facial & breast surgery
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- khách hàng nói -->
+<div class="container">
+	<div class="khnoi"><b>KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</b></div>
+	<div class="kechan"></div>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon1.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>THIẾT BỊ HIỆN ĐẠI</b>
+					</div>
+					<div class="motadv">
+						Chúng tôi sử dụng thiết bị y tế mới nhất để cung cấp các dịch vụ phẫu thuật thẩm mỹ hàng đầu.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon2.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>TRÌNH ĐỘ CHUYÊN MÔN CAO</b>
+					</div>
+					<div class="motadv">
+						Nhóm của chúng tôi bao gồm hơn 20 chuyên gia được đào tạo chuyên sâu để phục vụ nhu cầu của bệnh nhân.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="row">
+				<div class="col-sm-2">
+					<img src="images/icon3.png">
+				</div>
+				<div class="col-sm-10">
+					<div class="tendv">
+						<b>HIỆU QUẢ</b>
+					</div>
+					<div class="motadv">
+						Các kỹ năng của bác sĩ phẫu thuật của chúng tôi và điều trị hiệu quả mang lại kết quả mong muốn mà khách hàng mong đợi.s
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<div class="ft-ke"></div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<div class="ft-ten">
+				<h6>TRUNG TÂM PHẪU THUẬT THẨM MỸ</h6>
+			</div>
+			<div class="ft-gach"></div>
+			<div class=" ft-thongtin">
+				<div class="row">
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/fticonphone.png" height="14px">
+					</div>
+					<div class="col-sm-11 ft-thongtin-content">
+						04 8988899
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src=images/fticonmap.png" height="14px">
+					</div>
+					<div class="col-sm-11 ft-thongtin-content">
+						Thành phố Hoàng Gia (Royal City), Mỹ Đình - HN
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/fticonmail.png" width="10px">
+					</div>
+					<div class="col-sm-11 ft-thongtin-content">
+						info@SURGERY CLINIC.com.vn
+					</div>
+				</div>
+				<div class="row" style="margin-top: 12px;">
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/fticonfacebook.png" width="28px">
+					</div>
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/fticontwitter.png" width="28px">
+					</div>
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/google.png" width="28px">
+					</div>
+					<div class="col-sm-1 ft-thongtin-icon">
+						<img src="images/instagram.png" width="28px">
+					</div>
+				</div>
+			</div>
+			<div class="emailkh">
+				<div class="ft-youremail">
+					<div class="form-inline">
+						<input class="form-control" type="email" id="youremail" placeholder="Your e-mail">
+						<button class="btn btn-primary" type="submit" id="ft-nut">Nhập bản tin</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<img src="images/maps.png" width="100%">
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
